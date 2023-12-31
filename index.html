@@ -1,0 +1,125 @@
+ <!-- Mozilla Splash  -->
+ <!--By Riza -->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Mozilla Splash Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      html {
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
+      }
+
+      body {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      header h1 {
+        font-size: 48px;
+        color: #333;
+      }
+
+      main {
+        background: #e5e5e5;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      article {
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+        color: #444;
+      }
+
+      p {
+        line-height: 1.6;
+        color: #666;
+      }
+
+      .further-info {
+        margin-top: 20px;
+        overflow: hidden;
+      }
+
+      .further-info a {
+        width: 24%;
+        display: block;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .further-info img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .further-info a:hover img {
+        transform: scale(1.1);
+      }
+
+      .red-panda img {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Mozilla!</h1>
+      <img src="https://example.com/your-custom-logo.png" alt="Custom Logo">
+    </header>
+
+    <main>
+      <article>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>About Mozilla</h2>
+        <p>Mozilla is a global community dedicated to advancing openness, innovation, and opportunity on the web. Learn more about our mission and projects.</p>
+        <p>Click on the images below to explore more about what Mozilla offers.</p>
+      </article>
+
+      <div class="further-info">
+        <a href="https://www.mozilla.org/en-US/firefox/new/">
+          <img src="https://example.com/firefox.png" alt="Firefox">
+        </a>
+        <a href="https://www.mozilla.org/">
+          <img src="https://example.com/mozilla.png" alt="Mozilla">
+        </a>
+        <a href="https://addons.mozilla.org/">
+          <img src="https://example.com/addons.png" alt="Add-ons">
+        </a>
+        <a href="https://developer.mozilla.org/en-US/">
+          <img src="https://example.com/mdn.png" alt="MDN">
+        </a>
+        <div style="clear: both;"></div>
+      </div>
+
+      <div class="red-panda">
+        <img src="https://example.com/red-panda.jpg" alt="Red Panda">
+      </div>
+    </main>
+  </body>
+</html>
